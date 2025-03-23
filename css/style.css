@@ -137,3 +137,20 @@ padding: 30px;
 .resume-button{
     text-align: center;
 }
+/* Footer section */
+footer{
+    display: flex;
+    margin-top: 110px;
+    padding: 130px 230px;
+    gap: 50px;
+}
+footer input[type="text"], input[type="email"], footer textarea{
+  height: 64px;  
+  border-radius: 10px;
+  background-color: white;
+  color: rgba(117, 117, 117, 1);
+  display: block;
+  width: 100%;
+  border-radius: none;
+  margin-bottom: 20px;
+}
