@@ -154,3 +154,33 @@ footer input[type="text"], input[type="email"], footer textarea{
   border-radius: none;
   margin-bottom: 20px;
 }
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px){
+    nav > ul,
+    nav,
+    .banner,
+    .about-items,
+    .skill-containers,
+    .Resume-Containers,
+    footer{
+        flex-direction: column;
+    }
+    nav >ul{
+        gap: 20px;
+    }
+    .banner-profile-pic{
+    width: 100%;
+    } 
+    .banner{
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    footer{
+        padding: 20px;
+    }
+
+}
